@@ -7,14 +7,15 @@ Il comprend la configuration complète du serveur, la création d'utilisateurs, 
 
 ## Suivi des étapes du projet :
 
-| Installation d’OpenVPN et Easy-RSA
-| Génération des clés serveur
-| Génération des utilisateurs `alice` et `bob`
-| Configuration de `/etc/openvpn/server.conf`
-| Activation du routage IP (`/etc/sysctl.conf`)
-| Pare-feu UFW configuré
-| Authentification à deux facteurs (2FA)| (Le plugin est directement dans le fichier sever.conf)
-| Dépôt GitHub
+-Installation d’OpenVPN et Easy-RSA
+-Génération des clés serveur
+-Génération des utilisateurs `alice` et `bob`
+-Configuration de `/etc/openvpn/server.conf`
+-Activation du routage IP (`/etc/sysctl.conf`)
+-Pare-feu UFW configuré
+-Authentification à deux facteurs (2FA)| (Le plugin est directement dans le fichier sever.conf)
+-Dépôt GitHub
+
 ---
 
 ## Contenu du dépôt :
