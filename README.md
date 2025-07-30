@@ -24,7 +24,6 @@ Il comprend la configuration complète du serveur, la création d'utilisateurs, 
 - `vars` – Paramètres Easy-RSA
 - `ta.key` – Clé TLS d’authentification
 - `alice.ovpn.example` – Exemple de fichier de configuration client VPN
-- `README.md` – Ce fichier de documentation
 
 ### Lancer le serveur OpenVPN avec bash :
 
