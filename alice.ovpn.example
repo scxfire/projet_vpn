@@ -1,0 +1,36 @@
+# -----Exemple Fichier de configuration client fictif-
+
+
+client
+dev tun
+proto udp
+remote VOTRE_ADRESSE_IP 1194
+resolv-retry infinite
+nobind
+persist-key
+persist-tun
+remote-cert-tls server
+cipher AES-256-CBC
+auth SHA256
+verb 3
+tls-auth ta.key 1
+
+<ca>
+# (Contenu fictif de ca.crt)
+# MIIBxzCCAXygAwIBAgIUZk3sdjfsdfsdfF==
+</ca>
+
+<cert>
+# (Contenu fictif du certificat d’Alice)
+# MIICzTCCAbWgAwIBAgIBADANBgkqhkiG9w0BAQsFADARMQ8wDQYDVQQDDAZBbGljZTAeFw==
+</cert>
+
+<key>
+# (Clé privée fictive d’Alice)
+# MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBK...
+</key>
+
+<tls-auth>
+# (Clé TLS fictive)
+# f2c8892335872adff0980238abda31aa
+</tls-auth>
