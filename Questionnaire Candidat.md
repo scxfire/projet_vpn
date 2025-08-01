@@ -28,6 +28,12 @@ Quelle autre commande pourriez-vous utiliser sous Debian/Ubuntu pour avoir plus 
 **Comment passer un ou plusieurs arguments à un script BASH?**  
 Donnez des exemples de redirection des E/S standard pour passer un argument à un script.
 
+Pour passer un  ou plusieurs arguments, il faut utilisé une de ces variables à la fin de la commande d'éxécution du script `./mon_script.sh premier second` :
+
+- $1
+- $2
+- $@
+
 Exemple de redirection des E/S standard :
 
 - Entrée : stdin  
@@ -40,7 +46,7 @@ Exemple de redirection des E/S standard :
 
 **Dans quel environnement est exécuté un script inscrit dans la crontab de l’utilisateur /home/debianUser ?**
 
-> Le script est lancer dans l’environnement cron
+ Le script est lancer dans l’environnement cron
 
 ---
 
@@ -141,42 +147,3 @@ Exemple de redirection des E/S standard :
  - Ma famille, ils peuvent profiter pour les contacter directement avec mon identité.  
  - Entreprise, Ils peuvent introduire un virus et qui aurait des conséquences désastreuses comme une fuite de données professionnelles ou un blocage des systèmes (ransomware).  
  - En conséquence de la fuite professionnelle, même les clients peuvent être affectés.
-
----
-
-## Projet VPN
-
-**Sur un environnement Linux Debian virtualisé, vous allez installer un VPN et le sécuriser.**
-
-### Partie 1
-
-- Installez OpenVPN et générez les clés et les certificats nécessaires pour configurer le serveur VPN.  
-  Vous pouvez utiliser l'outil easy-rsa qui est fourni avec OpenVPN pour le faire.  
-- Suivez les instructions pour générer les clés et les certificats.  
-- Ensuite, vous devrez configurer le serveur OpenVPN : créez un fichier de configuration pour le serveur et spécifiez les paramètres nécessaires pour permettre à deux utilisateurs de se connecter.  
-- Pour sécuriser le VPN, vous devrez activer un cryptage fort. OpenVPN supporte plusieurs algorithmes de cryptage, tels que AES et Blowfish. Choisissez un algorithme de cryptage considéré comme sûr.  
-- Enfin, lancez le serveur OpenVPN en exécutant la commande appropriée. Vous devriez maintenant être en mesure de vous connecter au VPN à partir d'autres appareils.
-
----
-
-### Partie 2
-
-- Ajoutez le service VPN au systemd afin qu’il se lance automatiquement au démarrage du serveur.  
-- Configurez un firewall afin que seules les connexions HTTP soient permises aux utilisateurs se connectant au VPN.
-
----
-
-### Partie 3
-
-- Vous pouvez également sécuriser le VPN en activant l'authentification à deux facteurs.  
-- Cela exige que les utilisateurs fournissent une forme supplémentaire d'authentification, comme un code envoyé sur leur téléphone, avant de pouvoir se connecter au VPN.  
-- Pour activer l'authentification à deux facteurs, vous devrez utiliser un logiciel tel que Google Authenticator ou Duo.  
-- Suivez les instructions pour le configurer.
-
----
-
-### Rendu
-
-- Sur un repository GitHub, envoyez vos fichiers de configuration du serveur, et les scripts/configurations utilisés pour créer les utilisateurs.  
-- Dans un fichier PDF, vous devrez vous présenter en quelques lignes et parler de votre intérêt pour la cybersécurité.  
-- Vous devrez également copier le lien vers votre repository GitHub où se trouve le travail demandé ci-dessus.
