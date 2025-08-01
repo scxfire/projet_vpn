@@ -12,13 +12,14 @@ La deuxième partie est un projet à réaliser.
 ### Question 1
 
 Dans un terminal (BASH), vous tapez la commande:  
+
 `ps -ef | grep ssh` pour:
 
-> Lister les processus actifs puis filtrer la recherche
+Lister les processus actifs puis filtrer la recherche
 
 Quelle autre commande pourriez-vous utiliser sous Debian/Ubuntu pour avoir plus d'informations?
 
-> `ps aux`
+`ps aux`
 
 ---
 
@@ -60,7 +61,7 @@ Exemple de redirection des E/S standard :
 
 **Sur un réseau Ethernet, que fera un host ou un équipement qui reçoit une trame contenant une adresse MAC unicast qui ne correspond pas à sa propre adresse MAC ?**
 
-> Il rejette la trame, si ce n’est pas sa propre adresse mac.
+ Il rejette la trame, si ce n’est pas sa propre adresse mac.
 
 ---
 
@@ -79,7 +80,7 @@ Exemple de redirection des E/S standard :
 
 **On vous donne une trame réseau en hexadécimal. Quel outil/logiciel pouvez vous utiliser pour l'interpréter ?**
 
-> Pour interpréter une trame réseau en hexadécimal, on peut utiliser **Wireshark**
+ Pour interpréter une trame réseau en hexadécimal, on peut utiliser **Wireshark**
 
 ---
 
@@ -97,7 +98,7 @@ Exemple de redirection des E/S standard :
 
 **Quel est le but d'une attaque d'ARP spoofing ?**
 
-> Associer une adresse IP avec un adresse MAC erronée
+ Associer une adresse IP avec un adresse MAC erronée
 
 ---
 
@@ -107,7 +108,7 @@ Exemple de redirection des E/S standard :
 
 **Existe-t-il une norme pour la sécurité informatique ?**
 
-> Oui, il existe une norme de sécurité qui se nomme ISO 27001 qui est pionnière dans le domaine de la sécurité informatique
+ Oui, il existe une norme de sécurité qui se nomme ISO 27001 qui est pionnière dans le domaine de la sécurité informatique
 
 ---
 
@@ -115,7 +116,7 @@ Exemple de redirection des E/S standard :
 
 **Concernant la sécurité, quelles institutions/agences pouvez-vous citer pour la France ? À l'international ?**
 
-> ANSSI : Agence nationale de la sécurité des systèmes d'information
+ ANSSI : Agence nationale de la sécurité des systèmes d'information
 
 ---
 
@@ -137,9 +138,9 @@ Exemple de redirection des E/S standard :
 
 **Qui d'autre pourrait être impacté d'une faille de sécurité chez vous (ou dans votre entreprise) ?**
 
-> Ma famille, ils peuvent profiter pour les contacter directement avec mon identité.  
-> Entreprise, Ils peuvent introduire un virus et qui aurait des conséquences désastreuses comme une fuite de données professionnelles ou un blocage des systèmes (ransomware).  
-> En conséquence de la fuite professionnelle, même les clients peuvent être affectés.
+ - Ma famille, ils peuvent profiter pour les contacter directement avec mon identité.  
+ - Entreprise, Ils peuvent introduire un virus et qui aurait des conséquences désastreuses comme une fuite de données professionnelles ou un blocage des systèmes (ransomware).  
+ - En conséquence de la fuite professionnelle, même les clients peuvent être affectés.
 
 ---
 
