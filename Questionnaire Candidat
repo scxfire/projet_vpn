@@ -86,18 +86,8 @@ Exemple de redirection des E/S standard :
 ### Question 4
 
 **Quels champs appartiennent à un paquet TCP ? Sélectionnez tous les champs possibles.**
-
-- Adresse IP source  
-- Adresse MAC destination  
-- Adresse MAC source  
-- Data  
-- MIT  
-- FCS  
-- TTL  
-- Header Checksum  
-- Window Size  
+  
 - Ack Number  
-- Adresse IP destination  
 - Control Bits  
 - Application Layer data
 
