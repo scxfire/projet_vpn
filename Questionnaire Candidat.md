@@ -28,7 +28,7 @@ Quelle autre commande pourriez-vous utiliser sous Debian/Ubuntu pour avoir plus 
 **Comment passer un ou plusieurs arguments à un script BASH?**  
 Donnez des exemples de redirection des E/S standard pour passer un argument à un script.
 
-Pour passer un  ou plusieurs arguments, il faut utilisé une de ces variables à la fin de la commande d'éxécution du script 
+Pour passer un  ou plusieurs arguments, il faut utilisé une de ces variables à la fin de la commande d'exécution du script 
 `./mon_script.sh premier second` :
 
 - $1
